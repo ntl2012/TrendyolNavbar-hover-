@@ -1,0 +1,172 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.headerMain{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+.header-upsell{
+    margin: 0px 130px;
+    padding: 0px;
+    width: 1200px;
+    height: 20px;
+}
+.header-upsell-inner{
+    margin: 0px;
+    padding: 0px;
+    width: 1200px;
+    height: 15px;
+}
+.header-upsell-last{
+    margin: 0px;
+    padding: 0px;
+}
+.suggestion-nav{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+.suggestion-nav li{
+    margin: 0px 0px 0px 30px;
+    font-size: 13px;
+    cursor: pointer;
+    color: gray;
+    padding: 0px;
+}
+.header-account-nav{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    /* height: 500px; */
+}
+.header-nav-inner{
+    margin: 0px 120px 0px 110px;
+    padding: 0px;
+}
+.header-nav-inner-last{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-search{
+    width: 598px;
+    height: 43px;
+    margin: 0px;
+    padding: 0px;
+}
+.header-search-inner{
+    padding: 0px;
+    margin: 0px;
+    width: 598px;
+    height: 43px;
+}
+.header-search-inner-last{
+    width: 598px;
+    height: 43px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.header-search-inner-last input{
+    width: 598px;
+    height: 43px;
+    margin: 0px;
+    padding: 0px;
+    z-index: -100;
+}
+.header-search-inner-last i{
+    margin: 0px;
+    padding: 0px;
+    width: 18px;
+    height: 18px;
+    z-index: 10000;
+}
+.header-dropdowns{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 40px;
+    position: relative;
+    top: 15px;
+}
+.header-dropdown-inner{
+    margin: 0px;
+    padding: 0px;
+    width: 300px;
+    height: 40px;
+}
+.header-dropdowns-last{
+    display: flex;
+    justify-content: space-between;
+}
+.header-dropdown-last div{
+    cursor: pointer;
+    font-size: 13pxx;
+}
+.header-main-navbar nav{
+    display: flex;
+    justify-content: center;
+}
+.navBar-products{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    height: 34px;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+li a:hover{
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+.navbar-male:hover .male-products{
+    display: block;
+}
+.male-products{
+    position: absolute; /* Is it important to write position absolute command?*/
+    display: none;
+    box-shadow: 0px 34px 100px 34px rgba(62, 61, 61, 0.2);
+    width: 1225px;
+    float: right;
+    left: 110px;
+    background-color: darkseagreen;
+    margin: 0px;
+    padding: 0px;
+}
+.male-products div a{
+    text-decoration: none;
+}
+.male-clothes-list{
+    list-style: none;
+}
+.male-clothes-list li,h4{
+    margin: 5px;
+    /* padding: 10px; */
+}
+.male-products-main-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.male-first-container{
+    margin: 0px;
+    padding: 0px;
+}
+.male-clothes{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    left: -60px;
+}
+.male-shoes-list{
+    list-style: none;
+}
+.male-personalCare-list{
+    list-style: none;
+}
